@@ -1,0 +1,52 @@
+
+.main_section{
+  margin: 0 50px 0 50px;
+}
+.heading{
+  text-align: center;
+  font-family: "Roboto",sans-serif;
+  font-weight: bold;
+}
+.input_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#searchInput{
+  width: 20%;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-inline-end: 15px;
+}
+.fa{
+  padding: 5px;
+}
+i#list_view_btn,#grid_view_btn{
+font-size: 25px;
+}
+.card_section{
+  margin: 20px 10% 20px 10%;
+  padding:15px 10px 15px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width:1024px){
+  .badge_tag{
+    bottom: 100px !important;
+  }
+}
+@media only screen and (max-width:768px) and (min-width:1024px){
+  .title{
+    font-size:1px !important;
+  }
+  .badge_tag{
+    bottom: 50px !important;
+    width: fit-content !important;
+    font-size: 12px !important;
+  }
+}
+
+
+
